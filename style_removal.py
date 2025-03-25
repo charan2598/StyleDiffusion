@@ -44,7 +44,7 @@ preprocess = transforms.Compose(
 )
 
 # Diffusion based style removal
-K_r = 5 # Iterations
+K_r = 5 # Iterations to dispel the style
 S_for = 40 # Forward steps
 S_rev = 40 # Reverse steps
 
